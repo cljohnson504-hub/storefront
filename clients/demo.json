@@ -1,0 +1,29 @@
+{
+  "businessName": "Acme Plumbing",
+  "slug": "demo",
+  "tagline": "Fast, reliable plumbing in Springfield",
+  "primaryColor": "#1d4ed8",
+  "logoUrl": "",
+  "phone": "555-867-5309",
+  "address": "123 Main St, Springfield, IL 62701",
+  "googleMapsUrl": "https://maps.google.com",
+  "contactEmail": "demo@example.com",
+  "emailjsServiceId": "service_demo",
+  "emailjsTemplateId": "template_demo",
+  "emailjsPublicKey": "demo_key",
+  "hours": [
+    { "days": "Mon–Fri", "time": "7am–6pm" },
+    { "days": "Sat", "time": "8am–2pm" },
+    { "days": "Sun", "time": "Closed" }
+  ],
+  "services": [
+    "Drain Cleaning",
+    "Water Heater Installation",
+    "Emergency Repairs",
+    "Pipe Replacement",
+    "Faucet & Fixture Repair"
+  ],
+  "socialLinks": {
+    "facebook": "https://facebook.com"
+  }
+}
