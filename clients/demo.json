@@ -25,5 +25,10 @@
   ],
   "socialLinks": {
     "facebook": "https://facebook.com"
-  }
+  },
+  "beforeAfterLabel": "See Our Work",
+  "beforeImageUrl": "",
+  "afterImageUrl": "",
+  "galleryLabel": "Our Work",
+  "galleryImages": []
 }

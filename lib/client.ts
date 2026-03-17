@@ -23,4 +23,9 @@ export interface ClientConfig {
   hours: HoursEntry[]
   services: string[]
   socialLinks?: SocialLinks
+  beforeAfterLabel?: string
+  beforeImageUrl?: string
+  afterImageUrl?: string
+  galleryLabel?: string
+  galleryImages?: string[]
 }
