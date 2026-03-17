@@ -56,4 +56,10 @@ describe('ContactForm', () => {
       expect(screen.getByText(/something went wrong/i)).toBeInTheDocument()
     })
   })
+
+  it('renders h2 with left-border inline style', () => {
+    render(<ContactForm businessName="Test" primaryColor="#1d4ed8" contactEmail="" emailjsServiceId="" emailjsTemplateId="" emailjsPublicKey="" />)
+    const heading = screen.getByText('Contact Us')
+    expect(heading).toHaveStyle({ borderLeft: '3px solid #1d4ed8', paddingLeft: '12px' })
+  })
 })

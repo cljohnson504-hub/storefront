@@ -50,7 +50,12 @@ export default function ContactForm({
 
   return (
     <section className="px-6 py-12 bg-gray-50">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Contact Us</h2>
+      <h2
+        style={{ borderLeft: `3px solid ${primaryColor}`, paddingLeft: '12px' }}
+        className="text-2xl font-bold text-gray-900 mb-6"
+      >
+        Contact Us
+      </h2>
       <form onSubmit={handleSubmit} className="max-w-sm mx-auto flex flex-col gap-4">
         <input
           required
