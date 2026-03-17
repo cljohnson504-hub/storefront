@@ -2,16 +2,16 @@ import React from 'react'
 
 const motion = {
   div: React.forwardRef(function MotionDiv(
-    { children, className, style, onClick }: React.HTMLAttributes<HTMLDivElement>,
+    { children, className, style, onClick, ...rest }: React.HTMLAttributes<HTMLDivElement> & { [key: string]: unknown },
     ref: React.Ref<HTMLDivElement>
   ) {
-    return <div ref={ref} className={className} style={style} onClick={onClick}>{children}</div>
+    return <div ref={ref} className={className} style={style} onClick={onClick} {...rest}>{children}</div>
   }),
   img: React.forwardRef(function MotionImg(
-    { src, alt, className, onClick }: React.ImgHTMLAttributes<HTMLImageElement>,
+    { src, alt, className, onClick, ...rest }: React.ImgHTMLAttributes<HTMLImageElement> & { [key: string]: unknown },
     ref: React.Ref<HTMLImageElement>
   ) {
-    return <img ref={ref} src={src} alt={alt} className={className} onClick={onClick} />
+    return <img ref={ref} src={src} alt={alt} className={className} onClick={onClick} {...rest} />
   }),
 }
 
