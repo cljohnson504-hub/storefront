@@ -1,4 +1,10 @@
 import { render, screen } from '@testing-library/react'
+
+jest.mock('./FadeUp', () => ({
+  __esModule: true,
+  default: ({ children }: { children: React.ReactNode }) => <>{children}</>,
+}))
+
 import Services from './Services'
 
 describe('Services', () => {
