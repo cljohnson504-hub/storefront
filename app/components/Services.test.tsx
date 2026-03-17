@@ -18,4 +18,17 @@ describe('Services', () => {
     render(<Services services={['Test']} primaryColor="#1d4ed8" />)
     expect(screen.getByText('Our Services')).toBeInTheDocument()
   })
+
+  it('renders service chips with border class (not border-2)', () => {
+    render(<Services services={['Drain Cleaning']} primaryColor="#1d4ed8" />)
+    const chip = screen.getByText('Drain Cleaning')
+    expect(chip).toHaveClass('border')
+    expect(chip).not.toHaveClass('border-2')
+  })
+
+  it('renders h2 with left-border inline style', () => {
+    render(<Services services={['Test']} primaryColor="#1d4ed8" />)
+    const heading = screen.getByText('Our Services')
+    expect(heading).toHaveStyle({ borderLeft: '3px solid #1d4ed8', paddingLeft: '12px' })
+  })
 })
