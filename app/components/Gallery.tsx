@@ -21,7 +21,7 @@ export default function Gallery({ label, images, primaryColor }: GalleryProps) {
         {label}
       </h2>
 
-      <div className="columns-2 md:columns-3 gap-2">
+      <div className="columns-3 md:columns-4 lg:columns-5 gap-2">
         {images.map((src, index) => (
           <FadeUp key={src} delay={Math.min(index * 0.1, 0.5)}>
             <div
@@ -29,7 +29,7 @@ export default function Gallery({ label, images, primaryColor }: GalleryProps) {
               onClick={() => setSelectedPhoto(src)}
               data-testid="gallery-item"
             >
-              <img src={src} alt="" className="w-full h-auto" />
+              <img src={src} alt="" className="w-full h-32 object-cover" />
             </div>
           </FadeUp>
         ))}

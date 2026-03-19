@@ -1,0 +1,46 @@
+{
+  "businessName": "Eagle Eye Fencing",
+  "slug": "eagle-eye-fencing",
+  "tagline": "Tear down, clearing, and site prep done right",
+  "primaryColor": "#0d9488",
+  "logoUrl": "",
+  "phone": "(843)-714-7746",
+  "address": "",
+  "googleMapsUrl": "",
+  "contactEmail": "cljohnson504@gmail.com",
+  "emailjsServiceId": "service_zpqwg0r",
+  "emailjsTemplateId": "template_7tkko3u",
+  "emailjsPublicKey": "WCaryXAuyKTaDOZRu",
+  "hours": [
+    { "days": "Mon–Sat", "time": "7am–6pm" },
+    { "days": "Sun", "time": "Closed" }
+  ],
+  "services": [
+    "Tear Down",
+    "Land Clearing",
+    "Debris Removal",
+    "Material Provided",
+    "Site Prep"
+  ],
+  "socialLinks": {},
+  "beforeAfterLabel": "See Our Work",
+  "beforeImageUrl": "",
+  "afterImageUrl": "",
+  "galleryLabel": "Our Work",
+  "galleryImages": [
+    "/images/IMG_4386.jpeg",
+    "/images/IMG_4387.jpeg",
+    "/images/IMG_4388.jpeg",
+    "/images/IMG_4389.jpeg",
+    "/images/IMG_4390.jpeg",
+    "/images/IMG_4391.jpeg",
+    "/images/IMG_4392.jpeg",
+    "/images/IMG_4393.jpeg",
+    "/images/IMG_4394.jpeg",
+    "/images/IMG_4395.jpeg",
+    "/images/IMG_4396.jpeg",
+    "/images/IMG_4397.jpeg",
+    "/images/IMG_4398.jpeg",
+    "/images/IMG_4399.jpeg"
+  ]
+}
